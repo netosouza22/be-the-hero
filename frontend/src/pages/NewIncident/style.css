@@ -1,0 +1,67 @@
+.NewIncident-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.NewIncident-container .content {
+    width: 100%;
+    padding: 96px;
+    background: #f0f0f5;
+    box-shadow: 0 0 100px rgba(0,0,0, 0.1);
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.NewIncident-container .content section {
+    width: 100%;
+    max-width: 380px;
+}
+
+.NewIncident-container .content section h1 {
+    margin: 64px 0 32px;
+    font-size: 32px;
+}
+.NewIncident-container .content section p {
+    font-size: 18px;
+    color: #737380;
+    line-height: 32px;
+}
+
+.NewIncident-container .content  form{
+    width: 100%;
+    max-width: 450px;
+
+}
+.NewIncident-container .content form input {
+    margin-top: 8px;
+}
+.NewIncident-container .content form textarea {
+    margin-top: 8px;
+}
+
+.NewIncident-container .content form .input-address {
+    display: flex;
+}
+.NewIncident-container section.form form a {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: #41414d;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+.NewIncident-container section.form  form a:hover{
+    opacity: 0.8;
+}
+.NewIncident-container section.form  form a svg {
+    margin-right: 12px;
+}
